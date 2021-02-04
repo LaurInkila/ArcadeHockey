@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Tiedostot\\Sovellukset\\arcadehockey\\ArcadeHockey\\ArcadeHockey\\ArcadeHockey.csproj": {}
+  },
+  "projects": {
+    "D:\\Tiedostot\\Sovellukset\\arcadehockey\\ArcadeHockey\\ArcadeHockey\\ArcadeHockey.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tiedostot\\Sovellukset\\arcadehockey\\ArcadeHockey\\ArcadeHockey\\ArcadeHockey.csproj",
+        "projectName": "ArcadeHockey",
+        "projectPath": "D:\\Tiedostot\\Sovellukset\\arcadehockey\\ArcadeHockey\\ArcadeHockey\\ArcadeHockey.csproj",
+        "packagesPath": "C:\\Users\\RInkila\\.nuget\\packages\\",
+        "outputPath": "D:\\Tiedostot\\Sovellukset\\arcadehockey\\ArcadeHockey\\ArcadeHockey\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RInkila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Jypeli.Core": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "Jypeli.Physics2d.Core": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
